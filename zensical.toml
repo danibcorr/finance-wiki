@@ -1,6 +1,6 @@
 [project]
 site_name = "Daniel Bazo Correa"
-site_description = "Mi wiki personal para mis finanzas personales en Español"
+site_description = "Mi wiki personal sobre finanzas personales e inversión en Español"
 site_author = "Daniel Bazo Correa"
 site_url = "https://danibcorr.github.io/finance-wiki/"
 repo_url = "https://github.com/danibcorr/finance-wiki"
@@ -8,94 +8,53 @@ repo_name = "danibcorr/finance-wiki"
 copyright = "Copyright &copy; 2026 Daniel Bazo Correa"
 nav = [
     {"Inicio" = "index.md"},
-    {"Sistemas y herramientas" = [
-        {"Linux" = [
-            "01_operative_systems/01_linux/section_1_fundamentals.md"
+    {"Finanzas personales" = [
+        {"Fundamentos" = [
+            "01_personal/section_1_fundamentos.md",
+            "01_personal/section_2_ahorro_y_liquidez.md",
+            "01_personal/section_3_deuda_y_vivienda.md",
+            "01_personal/section_4_proteccion_y_jubilacion.md",
+            "01_personal/section_5_fiscalidad.md"
         ]},
-        {"Git" = [
-            "02_dev_tools/01_git/section_1_fundamentals.md",
-            "02_dev_tools/01_git/section_2_practical_cases.md"
-        ]},
-        {"Scripting" = [
-            "02_dev_tools/02_scripting/section_1_bash.md",
-            "02_dev_tools/02_scripting/section_2_makefile.md"
+        {"Planificación" = [
+            "02_planificacion/section_1_objetivos.md",
+            "02_planificacion/section_2_independencia_financiera.md"
         ]}
     ]},
-    {"Programación" = [
-        {"Python" = [
-            "03_programming/01_python/section_1_environments.md",
-            "03_programming/01_python/section_2_fundamentals.md",
-            "03_programming/01_python/section_3_libraries.md",
+    {"Mercados" = [
+        {"Entorno macroeconómico" = [
+            "03_macro/section_1_tipos_e_inflacion.md",
+            "03_macro/section_2_renta_fija.md",
+            "03_macro/section_3_liquidez_remunerada.md"
         ]},
-        {"Rust" = [
-            "03_programming/02_rust/section_1_fundamentals.md",
-            "03_programming/02_rust/section_2_libraries.md"
-        ]},
-        {"CUDA" = [
-            "03_programming/03_cuda/section_1_fundamentals.md",
-            "03_programming/03_cuda/section_2_cuda_c.md",
-            "03_programming/03_cuda/section_3_cuda_python.md"
-        ]},
-        {"Desarrollo web" = [
-            "03_programming/04_web/section_1_fundamentals.md"
+        {"Instrumentos" = [
+            "04_instrumentos/section_1_renta_variable.md",
+            "04_instrumentos/section_2_fondos_y_etfs.md",
+            "04_instrumentos/section_3_inmobiliario.md",
+            "04_instrumentos/section_4_derivados_y_materias_primas.md",
+            "04_instrumentos/section_5_alternativos.md"
         ]}
     ]},
-    {"Ingeniería y operaciones" = [
-        {"Ingeniería del software" = [
-            "04_software_engineering/section_1_data_structures.md",
-            "04_software_engineering/section_2_algorithms.md",
-            "04_software_engineering/section_3_sustainable_code.md"
+    {"Inversión" = [
+        {"Análisis de empresas" = [
+            "05_analisis/section_1_metricas_contables.md",
+            "05_analisis/section_2_valoracion.md",
+            "05_analisis/section_3_calidad_y_trampas.md"
         ]},
-        {"Bases de datos" = [
-            "05_infrastructure/01_databases/section_1_sql.md"
+        {"Cartera" = [
+            "06_cartera/section_1_asignacion_de_activos.md",
+            "06_cartera/section_2_core_satellite.md",
+            "06_cartera/section_3_treynor_black.md",
+            "06_cartera/section_4_riesgo_y_control.md"
         ]},
-        {"Operaciones y despliegue" = [
-            "06_operations/section_1_containers.md",
-            "06_operations/section_2_ci_cd.md",
-            "06_operations/section_3_orchestrators.md",
-            "06_operations/section_4_experiment_management.md",
-            "06_operations/section_5_deployment.md",
-            "06_operations/section_6_monitoring.md"
-        ]},
-        {"Cloud" = [
-            "05_infrastructure/02_cloud/section_1_fundamentals.md",
-            "05_infrastructure/02_cloud/section_2_aws.md"
+        {"Conducta y evidencia" = [
+            "07_conducta/section_1_filosofia_de_inversion.md",
+            "07_conducta/section_2_sesgos_cognitivos.md",
+            "07_conducta/section_3_crisis_historicas.md"
         ]}
     ]},
-    {"Inteligencia artificial" = [
-        {"Matemáticas" = [
-            "07_artificial_intelligence/01_mathematics/section_1_statistics.md",
-            "07_artificial_intelligence/01_mathematics/section_2_deep_learning_math.md"
-        ]},
-        {"Machine Learning" = [
-            "07_artificial_intelligence/02_machine_learning/section_1_fundamentals.md",
-            "07_artificial_intelligence/02_machine_learning/section_2_supervised_models.md",
-            "07_artificial_intelligence/02_machine_learning/section_3_clustering.md",
-            "07_artificial_intelligence/02_machine_learning/section_4_evaluation.md",
-            "07_artificial_intelligence/02_machine_learning/section_5_dimensionality_reduction.md",
-            "07_artificial_intelligence/02_machine_learning/section_6_advanced.md"
-        ]},
-        {"Deep Learning" = [
-            "07_artificial_intelligence/03_deep_learning/section_1_fundamentals.md",
-            "07_artificial_intelligence/03_deep_learning/section_2_linear_models.md",
-            "07_artificial_intelligence/03_deep_learning/section_3_neural_networks.md",
-            "07_artificial_intelligence/03_deep_learning/section_4_cnn.md",
-            "07_artificial_intelligence/03_deep_learning/section_5_sequential_models.md",
-            "07_artificial_intelligence/03_deep_learning/section_6_other_paradigms.md",
-            "07_artificial_intelligence/03_deep_learning/section_7_generative_ai.md",
-            "07_artificial_intelligence/03_deep_learning/section_8_graph_neural_networks.md",
-            "07_artificial_intelligence/03_deep_learning/section_9_reinforcement_learning.md",
-            "07_artificial_intelligence/03_deep_learning/section_10_agents.md",
-            "07_artificial_intelligence/03_deep_learning/libraries/jax.md",
-            "07_artificial_intelligence/03_deep_learning/libraries/pytorch.md",
-            "07_artificial_intelligence/03_deep_learning/libraries/tensorflow.md"
-        ]},
-        {"Desarrollo con IA" = [
-            "07_artificial_intelligence/04_ai_development/section_1_fundamentals.md"
-        ]}
-    ]},
-    {"Carrera profesional" = [
-        "08_career/cv_guide.md"
+    {"Referencia" = [
+        "08_referencia/glosario.md"
     ]},
 ]
 extra_css = ["assets/stylesheets/extra.css"]

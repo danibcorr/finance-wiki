@@ -1,21 +1,19 @@
 [project]
 name = "finance-wiki"
-description = "Mi wiki personal para mis finanzas personales en Español"
+description = "Mi wiki personal sobre finanzas personales e inversión en Español"
 authors = [
     {name = "Daniel Bazo Correa", email = "none@none.com"},
 ]
-license = {file = "LICENSE"}
 readme = "README.md"
 version = "0.1.0"
 requires-python = ">=3.11"
 classifiers = [
-    "Intended Audience :: Developers",
-    "Intended Audience :: Science/Research",
-    "Topic :: Scientific/Engineering",
-    "Topic :: Software Development",
-    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Education",
+    "Natural Language :: Spanish",
+    "Topic :: Documentation",
+    "Topic :: Office/Business :: Financial :: Investment",
 ]
-keywords = ["machine learning", "data science", "software", "wiki"]
+keywords = ["finanzas personales", "inversión", "mercados", "wiki"]
 dependencies = [
     "zensical==0.0.60",
 ]
