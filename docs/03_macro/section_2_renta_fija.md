@@ -16,9 +16,7 @@ activo dentro de una cartera diversificada.
 ## Bibliografía
 
 - Banco Central Europeo. Tipos de interés oficiales y €STR. <https://www.ecb.europa.eu/>
-- Fichas de producto de la categoría de ETF de deuda pública de la eurozona con
-  vencimientos de uno a tres años.
-- Redondo, A. (2022). _Inversión: claves para alcanzar la libertad financiera_.
+- Redondo, A. _Inversión: claves para alcanzar la libertad financiera_.
 
 ## Introducción
 
@@ -28,19 +26,17 @@ una fecha determinada. La posición jurídica que ocupa el inversor es la de **a
 no la de accionista, de modo que no participa en los beneficios de la entidad ni en su
 gobierno, sino que ostenta un derecho de cobro.
 
-Esa condición explica el perfil de riesgo y rentabilidad de la clase de activo. El
-riesgo principal es que el emisor incurra en _default_, es decir, que no atienda los
+El riesgo principal es que el emisor incurra en _default_, es decir, que no atienda los
 pagos comprometidos. Al ser un riesgo menor que el de la renta variable, la rentabilidad
 esperada también es inferior. La renta fija no elimina el riesgo, sino que lo reduce y
 cambia su naturaleza.
 
 ## Anatomía de un bono
 
-Cinco elementos definen por completo un título de renta fija y permiten compararlo con
-cualquier otro.
+Cinco elementos definen por completo un título de renta fija.
 
 - **Emisor**: Entidad que se endeuda y asume la obligación de pago. Los bonos públicos
-  los emite el Estado y los bonos privados o corporativos los emiten las empresas.
+  los emite el Estado y los privados o corporativos, las empresas.
 - **Nominal**: Importe sobre el que se calculan los intereses y que el emisor devuelve
   al vencimiento, también llamado principal o valor facial.
 - **Cupón**: Interés periódico que el título paga, expresado como porcentaje del
@@ -50,9 +46,9 @@ cualquier otro.
 - **Precio**: Cotización del título en el mercado secundario, que puede situarse por
   encima o por debajo del nominal.
 
-El precio es el único de los cinco elementos que varía a lo largo de la vida del título.
-Cuando coincide con el nominal se dice que el bono cotiza a la par, cuando lo supera
-cotiza con prima y cuando queda por debajo cotiza con descuento.
+El precio es el único de los cinco que varía a lo largo de la vida del título. Cuando
+coincide con el nominal el bono cotiza a la par, cuando lo supera cotiza con prima y
+cuando queda por debajo, con descuento.
 
 ### Clasificación por vencimiento
 
@@ -60,32 +56,27 @@ La terminología del mercado español de deuda pública distingue tres tramos de
 **letras** son emisiones a corto plazo, con vencimientos habituales de tres, seis, nueve
 y doce meses, emitidas al descuento y sin cupones intermedios. Los **bonos** en sentido
 estricto abarcan plazos de dos, tres y cinco años, y las **obligaciones** se emiten a
-diez años o más. El plazo condiciona la sensibilidad del precio a los tipos de interés,
-y por tanto la volatilidad del título.
+diez años o más.
 
 ### Clasificación por tipo de cupón
 
 Existen tres modalidades de remuneración. El cupón fijo paga un interés periódico
 invariable durante toda la vida del título. El cupón flotante se calcula como un tipo de
-mercado de referencia más un diferencial fijo, de manera que la remuneración acompaña la
+mercado de referencia más un diferencial fijo, así que la remuneración acompaña la
 evolución de los tipos. El **cupón cero** no paga intereses intermedios, y la
-rentabilidad se obtiene íntegramente como diferencia entre el precio de adquisición y el
-de reembolso.
+rentabilidad es la diferencia entre el precio de adquisición y el de reembolso.
 
 ## La relación inversa entre precio y tipos de interés
 
 La regla básica del mercado de deuda establece que, cuando los tipos de interés suben,
 el precio de los bonos ya existentes baja. El motivo es que el cupón de un título
 emitido en el pasado es fijo, mientras que las nuevas emisiones incorporan las
-condiciones actuales del mercado.
-
-El razonamiento se sigue paso a paso. Un inversor presta 1.000 € al Estado a un 2 %
-anual durante diez años. Poco después, el banco central sube los tipos y el Estado emite
+condiciones actuales del mercado. Un inversor presta 1.000 € al Estado a un 2 % anual
+durante diez años. Poco después, el banco central sube los tipos y el Estado emite
 nuevas referencias al 5 %. Nadie está dispuesto a pagar 1.000 € por un título que renta
 un 2 % cuando el mercado ofrece un 5 % por el mismo riesgo, así que el precio del bono
 antiguo debe caer hasta que su rentabilidad efectiva iguale la de las nuevas emisiones.
-El descuento no es arbitrario, sino que resulta de descontar los flujos pendientes al
-nuevo tipo de mercado.
+El descuento resulta de descontar los flujos pendientes al nuevo tipo de mercado.
 
 ???+ example "Cálculo del descuento sobre un bono de 1.000 € al 2 %"
 
@@ -105,54 +96,48 @@ con cupones elevados se vuelven más atractivos y su precio sube por encima del 
 ## El _yield_ o rendimiento a vencimiento
 
 El _yield_ es el rendimiento anual que obtiene el inversor si mantiene el bono hasta el
-vencimiento, considerando tanto el precio pagado como los cupones cobrados durante la
-vida del título. Es la cifra que permite comparar bonos entre sí, porque resume en un
-solo porcentaje el efecto conjunto del precio, del cupón y del plazo restante.
-
-Formalmente, el _yield_ es el tipo de descuento que iguala el precio de mercado con el
-valor actual de todos los flujos pendientes.
+vencimiento, considerando el precio pagado y los cupones cobrados. Resume en un solo
+porcentaje el efecto conjunto del precio, del cupón y del plazo restante, y es la cifra
+que permite comparar bonos entre sí. Formalmente es el tipo de descuento que iguala el
+precio de mercado con el valor actual de todos los flujos pendientes.
 
 $$P = \sum_{t=1}^{n} \frac{C}{(1 + y)^{t}} + \frac{N}{(1 + y)^{n}}$$
 
 En la expresión, $P$ es el precio de mercado del bono, $C$ es el importe del cupón anual
 en euros, $N$ es el nominal que se devuelve al vencimiento, $n$ es el número de años
-pendientes y $y$ es el _yield_ o rendimiento a vencimiento. La ecuación no tiene
-solución algebraica cerrada para $y$, de modo que el valor se obtiene por iteración
-numérica.
+pendientes y $y$ es el _yield_. La ecuación no tiene solución algebraica cerrada para
+$y$, de modo que el valor se obtiene por iteración numérica.
 
 De la fórmula se derivan dos lecturas inmediatas. A menor precio de compra, mayor
-_yield_, y a mayor cupón, mayor _yield_ también. Cuando el bono cotiza exactamente a la
-par, el _yield_ coincide con el tipo del cupón. Una medida más simple, aunque
-incompleta, es el rendimiento corriente, que solo relaciona el cupón con el precio y
-omite la ganancia o la pérdida de capital hasta el vencimiento.
+_yield_, y a mayor cupón, mayor _yield_ también. Cuando el bono cotiza a la par, el
+_yield_ coincide con el tipo del cupón. Una medida más simple, aunque incompleta, es el
+rendimiento corriente, que solo relaciona el cupón con el precio y omite la ganancia o
+la pérdida de capital hasta el vencimiento.
 
 $$y_{c} = \frac{C}{P}$$
 
 ## Qué devuelve realmente un bono comprado a la par
 
-Un malentendido frecuente consiste en esperar que un bono genere algo más que sus
-cupones. La aclaración es sencilla. Si un título se adquiere por 100 € y se mantiene
-hasta el vencimiento, el inversor recibe los 100 € del nominal más los intereses anuales
-que hayan pagado los cupones, y nada más. El bono no participa en el crecimiento del
-emisor ni incorpora ninguna revalorización adicional, por lo que la rentabilidad total
-de la operación queda fijada en el momento de la compra.
+Un malentendido frecuente, que el planteamiento de Redondo corrige de forma explícita,
+consiste en esperar que un bono genere algo más que sus cupones. Si un título se
+adquiere por 100 € y se mantiene hasta el vencimiento, el inversor recibe los 100 € del
+nominal más los intereses anuales que hayan pagado los cupones, y nada más. El bono no
+participa en el crecimiento del emisor, por lo que la rentabilidad total de la operación
+queda fijada en el momento de la compra.
 
 Las oscilaciones de precio que se producen mientras el título está en circulación no
 alteran ese resultado, siempre que el bono se conserve hasta el final y el emisor
-cumpla. La pérdida de valor solo se materializa si el título se vende antes de tiempo,
-porque en ese caso el inversor recibe el precio de mercado del día en lugar del nominal.
-Mantenerlo hasta el vencimiento significa recuperar el 100 % del capital inicial más los
-intereses acordados, salvo quiebra del emisor.
+cumpla. La pérdida solo se materializa si el título se vende antes de tiempo, porque
+entonces el inversor recibe el precio de mercado del día en lugar del nominal.
 
 !!! warning
 
     La conclusión anterior no se traslada a los fondos y a los ETF (_exchange-traded
-    fund_, fondo cotizado) de renta fija. Esos vehículos no tienen fecha de
-    vencimiento, ya que los bonos que vencen se reponen con nuevas emisiones. El
-    partícipe no recibe nunca la devolución de un nominal, sino que su resultado
-    depende del valor liquidativo del día en que reembolsa. En un vehículo de este tipo
-    la pérdida por subida de tipos no se recupera esperando al vencimiento, sino a
-    medida que las nuevas compras incorporan cupones más altos.
+    fund_, fondo cotizado) de renta fija. Esos vehículos no vencen, porque los bonos que
+    llegan a su fecha se reponen con nuevas emisiones. El partícipe no recibe la
+    devolución de un nominal, sino el valor liquidativo del día en que reembolsa, de
+    modo que la pérdida por subida de tipos no se recupera esperando al vencimiento,
+    sino a medida que las nuevas compras incorporan cupones más altos.
 
 ## La duración como sensibilidad a los tipos
 
@@ -166,12 +151,11 @@ En la fórmula, $\Delta P / P$ es la variación porcentual del precio, $D_{m}$ e
 duración modificada expresada en años y $\Delta y$ es la variación del _yield_ en tanto
 por uno. El signo negativo recoge la relación inversa descrita antes.
 
-La interpretación práctica es directa. Un bono con duración modificada de dos años
-pierde en torno a un 2 % de su precio si los tipos suben un punto porcentual, mientras
-que uno con duración modificada de ocho años pierde alrededor de un 8 % ante el mismo
-movimiento. La duración es, por tanto, la palanca principal para regular el riesgo de
-una cartera de renta fija, y explica por qué los tramos cortos se comportan de forma
-mucho más estable que los largos.
+Un bono con duración modificada de dos años pierde en torno a un 2 % de su precio si los
+tipos suben un punto porcentual, mientras que uno de ocho años pierde alrededor de un 8
+%. La duración es, por tanto, la palanca principal para regular el riesgo de una cartera
+de renta fija, y explica por qué los tramos cortos se comportan de forma mucho más
+estable que los largos.
 
 ## Riesgo de tipo de interés frente a riesgo de crédito
 
@@ -182,11 +166,9 @@ tiempo, porque un bono que cae de precio recupera el nominal si se mantiene hast
 vencimiento.
 
 El riesgo de crédito o de impago afecta al cobro efectivo de los flujos y depende de la
-capacidad de pago del emisor. Se refleja en la prima de riesgo que el mercado exige, es
-decir, en el _spread_ que el emisor paga por encima de la referencia considerada libre
-de riesgo. Es un riesgo irreversible, ya que un impago no se recupera esperando.
-
-La medida convencional de ese segundo riesgo es el _rating_, la calificación que
+capacidad de pago del emisor. Se refleja en el _spread_ que el emisor paga por encima de
+la referencia considerada libre de riesgo. Es un riesgo irreversible, ya que un impago
+no se recupera esperando. Su medida convencional es el _rating_, la calificación que
 publican agencias como Standard & Poor's, Moody's y Fitch. Cuanto peor es la
 calificación, mayor rentabilidad exige el mercado como compensación, de modo que el
 cupón elevado de un bono nunca es gratuito, sino el precio de un riesgo superior.
@@ -198,8 +180,8 @@ dejar la rentabilidad real en territorio negativo, tal y como describe la
 
 ## Por qué la estanflación es el peor escenario para los bonos
 
-La estanflación combina precisamente los tres factores que perjudican a la renta fija, y
-lo hace de forma simultánea.
+La estanflación combina los tres factores que perjudican a la renta fija de forma
+simultánea.
 
 | Factor de la estanflación | Efecto sobre el bono                                                                            |
 | ------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -207,66 +189,43 @@ lo hace de forma simultánea.
 | Inflación alta            | El cupón es fijo, de modo que cada año compra menos bienes y la rentabilidad real se deteriora. |
 | Estancamiento económico   | En los bonos de empresa aumenta el riesgo de impago por deterioro de la actividad.              |
 
-Ninguno de los tres efectos compensa a los otros. Por eso los episodios de inflación
-alta con crecimiento débil son históricamente el entorno más adverso para una cartera de
-deuda a largo plazo.
+Ninguno de los tres efectos compensa a los otros, y por eso la inflación alta con
+crecimiento débil es el entorno más adverso para una cartera de deuda a largo plazo.
 
 ## El papel de la renta fija en una cartera
 
 La renta fija cumple tres funciones que justifican su presencia incluso en carteras
-orientadas al crecimiento.
+orientadas al crecimiento. Amortigua las caídas de la renta variable y reduce el riesgo
+de pérdida agregada en mercados bajistas, ofrece mediante los cupones un flujo de caja
+previsible para quien necesita rentas y aporta la parte estable de la cartera para
+perfiles conservadores o para horizontes cortos. Lo que no es la renta fija es la
+defensa natural frente a la inflación. Ese papel lo desempeña el componente de renta
+variable, cuyos beneficios empresariales acompañan la subida de precios a largo plazo,
+mientras que un cupón fijo no lo hace. El peso concreto de cada clase de activo se
+aborda en [asignación de activos](../06_cartera/section_1_asignacion_de_activos.md).
 
-- **Reducción de la volatilidad**: Amortigua las caídas de la parte de renta variable y
-  reduce el riesgo de pérdida agregada en mercados bajistas.
-- **Generación de ingresos periódicos**: Los cupones ofrecen un flujo de caja previsible
-  para quien necesita rentas.
-- **Reserva de estabilidad**: Aporta la parte estable de la cartera para perfiles
-  conservadores o para horizontes temporales cortos.
-
-Conviene precisar que la renta fija no es la defensa natural frente a la inflación. Ese
-papel lo desempeña el componente de renta variable, cuyos beneficios empresariales
-acompañan la subida de precios a largo plazo, mientras que un cupón fijo no lo hace. El
-peso concreto de cada clase de activo se aborda en
-[asignación de activos](../06_cartera/section_1_asignacion_de_activos.md).
-
-## Fondos y ETF de deuda pública europea a corto plazo
+## Compra directa frente a vehículos colectivos
 
 El acceso a la renta fija admite dos vías. La compra directa de bonos individuales
 entrega los cupones y devuelve el principal al vencimiento, con el resultado conocido
-desde el primer día. La inversión mediante fondos o ETF de bonos aporta diversificación
-y operativa sencilla, a cambio de renunciar a esa fecha de devolución, dado que los
-títulos que vencen se reponen con nuevas emisiones.
+desde el primer día. Los fondos y ETF de bonos aportan diversificación y operativa
+sencilla, a cambio de renunciar a esa fecha de devolución. El funcionamiento de estos
+vehículos, sus costes y sus modos de réplica se detallan en
+[fondos y ETF](../04_instrumentos/section_2_fondos_y_etfs.md).
 
 Dentro de la segunda vía, la categoría de deuda pública de la eurozona con vencimientos
 de uno a tres años ocupa un lugar intermedio entre la liquidez remunerada y la renta
-fija agregada. Sus rasgos característicos son una duración corta, la réplica física de
-una cartera diversificada de emisores soberanos y un coste reducido, con niveles de TER
-(_total expense ratio_, ratio de gastos totales) que en los productos indexados de esta
-categoría se sitúan de forma orientativa entre el 0,10 % y el 0,20 % anual. La categoría
-está disponible en las principales gestoras de fondos cotizados, con variantes de
-acumulación y de distribución.
-
-El encaje de esta categoría se explica por dos motivos. Con duraciones de uno a tres
-años, la rentabilidad esperada supera la de un vehículo monetario puro sin asumir la
-volatilidad de los bonos largos, y la caída de precio ante subidas de tipos queda
-amortiguada por la propia duración corta. Además, la réplica física evita el riesgo de
-contraparte asociado a las estructuras sintéticas, mecanismo que se detalla en
-[liquidez remunerada](section_3_liquidez_remunerada.md), lo que hace la categoría
-adecuada para la liquidez a corto y medio plazo.
-
-!!! note
-
-    El criterio de selección relevante es la combinación de duración objetivo, tipo de
-    réplica, coste total y política de distribución, no el nombre comercial ni el
-    proveedor. Cualquier categoría de producto citada en esta wiki tiene valor de
-    ejemplo y no constituye recomendación ni descripción de una cartera. El
-    funcionamiento general de estos vehículos se detalla en
-    [fondos y ETF](../04_instrumentos/section_2_fondos_y_etfs.md).
-
-## De la renta fija corta a la liquidez remunerada
+fija agregada. Con esas duraciones la rentabilidad esperada supera la de un vehículo
+monetario puro sin asumir la volatilidad de los bonos largos, y la caída de precio ante
+subidas de tipos queda amortiguada por la duración corta. La réplica física de una
+cartera diversificada de emisores soberanos evita además el riesgo de contraparte de las
+estructuras sintéticas. El criterio de selección relevante es la combinación de duración
+objetivo, tipo de réplica, coste total y política de distribución, no el nombre
+comercial.
 
 Reducir la duración hasta el mínimo lleva a un terreno distinto, el de los instrumentos
-diseñados para remunerar el dinero disponible sin asumir prácticamente riesgo de precio.
-Los fondos monetarios, las letras del Tesoro, las cuentas remuneradas y los ETF ligados
-al tipo a un día del euro se examinan en
+diseñados para remunerar el dinero disponible sin asumir riesgo de precio relevante. Los
+fondos monetarios, las letras del Tesoro, las cuentas remuneradas y los vehículos
+ligados al tipo a un día del euro, junto con el mecanismo de la réplica sintética y el
+riesgo de contraparte que introduce, se examinan en
 [liquidez remunerada](section_3_liquidez_remunerada.md).

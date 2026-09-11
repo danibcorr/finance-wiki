@@ -5,7 +5,7 @@ site_author = "Daniel Bazo Correa"
 site_url = "https://danibcorr.github.io/finance-wiki/"
 repo_url = "https://github.com/danibcorr/finance-wiki"
 repo_name = "danibcorr/finance-wiki"
-copyright = "Copyright &copy; 2026 Daniel Bazo Correa"
+copyright = "Copyright &copy; 2026 Daniel Bazo Correa. Contenido bajo licencia <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es\">CC BY-NC-SA 4.0</a>"
 nav = [
     {"Inicio" = "index.md"},
     {"Finanzas personales" = [

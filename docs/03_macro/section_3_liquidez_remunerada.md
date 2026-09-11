@@ -2,29 +2,27 @@
 authors: Daniel Bazo Correa
 description:
     Compara los vehículos que remuneran la liquidez a corto plazo, con especial atención
-    a los fondos monetarios, las letras del Tesoro, las cuentas remuneradas y los ETF
-    monetarios de réplica sintética.
+    a los fondos monetarios, las letras del Tesoro, las cuentas remuneradas y los
+    vehículos monetarios de réplica sintética.
 title: Liquidez remunerada
 ---
 
 La liquidez remunerada agrupa los vehículos que retribuyen el dinero disponible sin
 asumir riesgo de precio relevante. Esta sección explica su función dentro de un plan
-financiero, describe las cuatro alternativas habituales del mercado europeo, detalla con
-precisión el funcionamiento de la réplica sintética mediante _swap_ y propone criterios
-para elegir entre ellas.
+financiero, describe las cuatro alternativas habituales del mercado europeo, detalla el
+funcionamiento de la réplica sintética mediante _swap_ y propone criterios para elegir
+entre ellas.
 
 ## Bibliografía
 
 - Banco Central Europeo. Tipos de interés oficiales y €STR. <https://www.ecb.europa.eu/>
-- Ficha de producto del Xtrackers II EUR Overnight Rate Swap UCITS ETF 1C, referenciado
-  al índice Solactive €STR + 8,5 puntos básicos.
 
 ## Introducción
 
 La **liquidez remunerada** es el dinero que permanece disponible de forma casi inmediata
 y que, al mismo tiempo, obtiene una rentabilidad ligada a los tipos de interés a muy
-corto plazo. Su rasgo definitorio no es la rentabilidad, que siempre será modesta. Lo
-son tres propiedades combinadas, la disponibilidad rápida, la volatilidad muy baja y una
+corto plazo. Su rasgo definitorio no es la rentabilidad, que siempre será modesta, sino
+tres propiedades combinadas, la disponibilidad rápida, la volatilidad muy baja y una
 remuneración alineada con el precio del dinero fijado por el **BCE** (Banco Central
 Europeo).
 
@@ -68,29 +66,20 @@ deuda de vencimiento muy próximo. Su cartera se compone de tres tipos de activo
 
 La combinación de plazos cortos y emisores solventes explica sus dos características
 distintivas, riesgo bajo y liquidez alta, que los convierten en el vehículo natural para
-el fondo de emergencia.
-
-| Instrumento             | Plazo típico     | Perfil de riesgo                                |
-| ----------------------- | ---------------- | ----------------------------------------------- |
-| Letras del Tesoro       | Hasta 12 meses   | Muy bajo, con el Estado como emisor.            |
-| Bonos del Estado        | Entre 2 y 5 años | Bajo, con sensibilidad a los tipos según plazo. |
-| Obligaciones del Estado | 10 años o más    | Bajo el de crédito, alto el de tipo de interés. |
-| Bonos de empresa        | Variable         | Según la solvencia del emisor.                  |
-
-Las letras del Tesoro admiten además la compra directa, sin intermediación de un fondo.
-La suscripción directa evita el coste de gestión, a cambio de exigir la gestión manual
-de cada vencimiento y de comprometer el capital hasta esa fecha, ya que recuperarlo
-antes obliga a vender el título en el mercado secundario al precio del día. El fondo
-monetario invierte el mismo tipo de activo, pero mantiene una cartera escalonada que
-permite entrar y salir cualquier día hábil.
+el fondo de emergencia. Las letras del Tesoro admiten además la compra directa, sin
+intermediación de un fondo. La suscripción directa evita el coste de gestión, a cambio
+de exigir la gestión manual de cada vencimiento y de comprometer el capital hasta esa
+fecha, ya que recuperarlo antes obliga a vender el título en el mercado secundario al
+precio del día. El fondo monetario invierte el mismo tipo de activo, pero mantiene una
+cartera escalonada que permite entrar y salir cualquier día hábil.
 
 !!! note
 
     El criterio adoptado es tratar la liquidez remunerada como una categoría separada de
     la renta fija de inversión. La renta fija con duración de uno a tres años, descrita
     en [renta fija y bonos](section_2_renta_fija.md), asume oscilaciones de precio
-    apreciables y pertenece a la cartera. La liquidez remunerada mantiene la duración
-    en niveles mínimos y pertenece a la reserva.
+    apreciables y pertenece a la cartera. La liquidez remunerada mantiene la duración en
+    niveles mínimos y pertenece a la reserva.
 
 ## Cuentas remuneradas
 
@@ -107,24 +96,15 @@ promocional inicial. La comparación entre ofertas se realiza siempre con la TAE
 anual equivalente), no con el TIN (tipo de interés nominal), porque solo la primera
 recoge las comisiones y los gastos asociados.
 
-## ETF monetarios con réplica sintética
+## Vehículos monetarios con réplica sintética
 
-Un **ETF** (_exchange-traded fund_, fondo cotizado) monetario ofrece exposición al €STR
-con la operativa de un valor cotizado. La vía más extendida en Europa no consiste en
-comprar el activo subyacente, sino en replicar el índice de forma sintética mediante un
-_swap_, ya que el tipo a un día no es un activo que pueda adquirirse directamente. El
-ejemplo de categoría empleado aquí es el Xtrackers II EUR Overnight Rate Swap UCITS ETF
-1C, que sigue el índice Solactive €STR más 8,5 puntos básicos, equivalentes a un 0,085 %
-anual, con un TER (_total expense ratio_, ratio de gastos totales) del orden del 0,10 %
-anual según su ficha de producto. Esa cifra de coste es orientativa, porque la fija la
-gestora y puede revisarse.
-
-!!! note
-
-    El producto citado sirve únicamente para ilustrar cómo funciona la categoría. No
-    constituye recomendación de inversión ni describe una cartera propia, y el criterio
-    de selección pertinente es el índice replicado, el coste total y el tipo de réplica,
-    no el nombre comercial.
+Un fondo cotizado monetario ofrece exposición al €STR con la operativa de un valor
+cotizado. La vía más extendida en Europa no consiste en comprar el activo subyacente,
+sino en replicar el índice de forma sintética mediante un _swap_, ya que el tipo a un
+día no es un activo que pueda adquirirse directamente. Los índices de esta categoría se
+definen como el €STR más un diferencial de unos pocos puntos básicos, del que se resta
+el coste anual del vehículo, medido por el TER (_total expense ratio_, ratio de gastos
+totales) y detallado en [fondos y ETF](../04_instrumentos/section_2_fondos_y_etfs.md).
 
 ### Cómo funciona la réplica sintética
 
@@ -144,9 +124,9 @@ El mecanismo general de los contratos de intercambio se describe en
 
 ???+ example "Aritmética de la rentabilidad neta"
 
-    Con un €STR situado en el 3,50 % anual, cifra empleada aquí como ejemplo
-    ilustrativo, el índice de referencia rinde un 3,585 % al añadir los 8,5 puntos
-    básicos. Descontado el TER del 0,10 %, la rentabilidad neta teórica del vehículo
+    Las cifras son ilustrativas. Con un €STR situado en el 3,50 % anual y un diferencial
+    de índice de 8,5 puntos básicos, el índice de referencia rinde un 3,585 %.
+    Descontado un coste anual del 0,10 %, la rentabilidad neta teórica del vehículo
     queda en el 3,485 % anualizado.
 
     La misma cuenta con un €STR en el 1,00 % daría un 1,085 % de índice y un 0,985 %
@@ -155,12 +135,11 @@ El mecanismo general de los contratos de intercambio se describe en
 
 ### Mitos corregidos
 
-Tres ideas erróneas se repiten al describir estos vehículos, y las tres conviene
-desmontarlas de forma explícita.
+Tres ideas erróneas se repiten al describir estos vehículos.
 
-- **El ETF compra el activo subyacente**: Falso. Lo que adquiere el partícipe no es el
-  activo subyacente, sino la promesa respaldada por colateral físico de que un banco
-  pagará la evolución exacta del €STR.
+- **El vehículo compra el activo subyacente**: Falso. Lo que adquiere el partícipe es la
+  promesa, respaldada por colateral físico, de que un banco pagará la evolución exacta
+  del €STR.
 - **El fondo pide dinero prestado para apalancarse**: Falso. No existe préstamo ni
   apalancamiento, dado que el fondo solo compra activos por el importe exacto aportado
   por los inversores.
@@ -186,33 +165,25 @@ y a recalcular la cobertura a diario. Como contrapartida de esta arquitectura, l
 réplica sintética suele lograr un _tracking error_ inferior al de una réplica física, ya
 que la contraparte asume la obligación de entregar el índice con exactitud.
 
-!!! note
-
-    Una analogía facilita la comprensión de la estructura. El fondo compra manzanas, que
-    representan el colateral, y las guarda en su propio almacén. A continuación
-    intercambia con el banco el rendimiento de esas manzanas por la rentabilidad del
-    €STR. Las manzanas son el escudo de protección, porque si el banco quiebra se venden
-    para recuperar el capital. En ningún momento hay dinero prestado entre las partes.
-
 !!! warning
 
     La existencia de colateral reduce el riesgo de contraparte, pero no lo elimina. La
     cobertura se recalcula a diario, de modo que entre dos recálculos puede existir una
-    diferencia entre el valor del colateral y el del fondo. Quien prefiera evitar por
-    completo esa exposición dispone de las alternativas de réplica física descritas en
-    esta sección y en [renta fija y bonos](section_2_renta_fija.md).
+    diferencia entre el valor del colateral y el del fondo. Para evitar por completo esa
+    exposición quedan las alternativas de réplica física descritas en esta sección y en
+    [renta fija y bonos](section_2_renta_fija.md).
 
 ## Criterios de elección entre las alternativas
 
 Ninguna de las cuatro alternativas domina a las demás en todos los aspectos. La elección
 depende del uso concreto que vaya a darse al dinero.
 
-| Alternativa             | Ventaja principal                                         | Aspecto que vigilar                                          |
-| ----------------------- | --------------------------------------------------------- | ------------------------------------------------------------ |
-| Cuenta remunerada       | Disponibilidad inmediata y garantía de depósitos.         | Interés discrecional, con límites de saldo y vinculaciones.  |
-| Fondo monetario         | Seguimiento del tipo a un día con liquidez diaria.        | Comisión de gestión y calidad de la cartera subyacente.      |
-| Letras del Tesoro       | Rentabilidad conocida de antemano y emisor solvente.      | Gestión manual de los vencimientos y capital comprometido.   |
-| ETF monetario sintético | Coste bajo, operativa bursátil y _tracking error_ mínimo. | Riesgo de contraparte y costes de compraventa en el mercado. |
+| Alternativa        | Ventaja principal                                         | Aspecto que vigilar                                          |
+| ------------------ | --------------------------------------------------------- | ------------------------------------------------------------ |
+| Cuenta remunerada  | Disponibilidad inmediata y garantía de depósitos.         | Interés discrecional, con límites de saldo y vinculaciones.  |
+| Fondo monetario    | Seguimiento del tipo a un día con liquidez diaria.        | Comisión de gestión y calidad de la cartera subyacente.      |
+| Letras del Tesoro  | Rentabilidad conocida de antemano y emisor solvente.      | Gestión manual de los vencimientos y capital comprometido.   |
+| Vehículo sintético | Coste bajo, operativa bursátil y _tracking error_ mínimo. | Riesgo de contraparte y costes de compraventa en el mercado. |
 
 Cuatro criterios ordenan la comparación. El primero es el horizonte, ya que un gasto
 previsto en semanas exige disponibilidad inmediata, mientras que un plazo de varios
@@ -223,20 +194,11 @@ concentra el riesgo en una entidad, el fondo lo reparte entre emisores y la estr
 sintética lo traslada a una contraparte. El cuarto es la fiscalidad aplicable al
 reembolso, que difiere entre un depósito y un vehículo de inversión colectiva.
 
-!!! tip
-
-    La liquidez remunerada se valora por su función, no por su rentabilidad. Un vehículo
-    que renta unas décimas menos pero permite disponer del dinero el mismo día cumple
-    mejor el papel de fondo de emergencia que otro más rentable con liquidación
-    diferida.
-
-## De la liquidez a los instrumentos de inversión
-
-Los vehículos descritos aquí resuelven la parte defensiva del patrimonio, la que debe
-estar disponible y no puede depender del momento de mercado. A partir de ese punto
-entran en juego los instrumentos diseñados para hacer crecer el capital a largo plazo,
-empezando por la propiedad de empresas, que se aborda en
-[renta variable](../04_instrumentos/section_1_renta_variable.md). El detalle de las
-estructuras, los costes y los modos de réplica de los vehículos colectivos se desarrolla
-después en [fondos y ETF](../04_instrumentos/section_2_fondos_y_etfs.md), y la
-terminología empleada se recoge en el [glosario](../08_referencia/glosario.md).
+Por encima de esos cuatro criterios opera uno de orden superior, y es que la liquidez
+remunerada se valora por su función y no por su rentabilidad. Un vehículo que renta unas
+décimas menos pero permite disponer del dinero el mismo día cumple mejor el papel de
+fondo de emergencia que otro más rentable con liquidación diferida. Resuelta así la
+parte defensiva del patrimonio, entran en juego los instrumentos diseñados para hacer
+crecer el capital a largo plazo, empezando por la propiedad de empresas, que se aborda
+en [renta variable](../04_instrumentos/section_1_renta_variable.md), y la terminología
+empleada se recoge en el [glosario](../08_referencia/glosario.md).

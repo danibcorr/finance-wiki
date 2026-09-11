@@ -16,16 +16,15 @@ organizar los gastos o dimensionar un fondo de emergencia, hasta cómo se valora
 empresa o cómo se construye una cartera.
 
 El contenido nace de libros, de cartas anuales a accionistas, de artículos académicos y
-de la propia experiencia de ir tomando decisiones y equivocarme en algunas. Lo publico
-por dos razones: escribir obliga a entender de verdad lo que se estudia, y tener el
-registro ordenado permite volver sobre una idea meses después sin reconstruirla desde
-cero.
+de la propia experiencia, con equivocaciones incluidas. Lo publico por dos razones:
+escribir obliga a entender de verdad lo que se estudia, y tener el registro ordenado
+permite volver sobre una idea meses después sin reconstruirla desde cero.
 
-La wiki avanza de lo personal a lo técnico. Las dos primeras áreas cubren las finanzas
-domésticas y la planificación de objetivos. Las siguientes describen el entorno
-macroeconómico y los instrumentos disponibles. Las últimas entran en el análisis de
-empresas, la construcción de cartera y la parte conductual, que suele decidir el
-resultado más que cualquier fórmula.
+La wiki avanza de lo personal a lo técnico. Abre con las finanzas domésticas y la
+planificación de objetivos, sigue con el entorno macroeconómico y los instrumentos
+disponibles, y entra después en el análisis de empresas, la construcción de cartera y la
+conducta, que suele decidir el resultado más que cualquier fórmula. El área de
+referencia cierra el recorrido con el [glosario](./08_referencia/glosario.md).
 
 Gracias por interesarte. Siempre estoy abierto a nuevas ideas, correcciones o
 colaboraciones, así que no dudes en escribirme por LinkedIn 😊.
@@ -42,6 +41,6 @@ colaboraciones, así que no dudes en escribirme por LinkedIn 😊.
 !!! note "Consideraciones"
 
     El contenido se centra en el marco europeo, y en particular en el español, tanto en
-    la fiscalidad como en los productos disponibles. La normativa cambia con frecuencia
-    y mantener todo actualizado resulta difícil, así que conviene verificar cualquier
-    dato concreto en la fuente oficial correspondiente antes de utilizarlo.
+    la fiscalidad como en los productos disponibles. La normativa cambia con frecuencia,
+    así que conviene verificar cualquier dato concreto en la fuente oficial
+    correspondiente antes de utilizarlo.
