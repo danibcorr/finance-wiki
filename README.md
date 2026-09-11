@@ -17,29 +17,6 @@ No es asesoramiento financiero, ni de inversión, ni fiscal, ni legal. Es un reg
 estudio propio, con errores incluidos, y cada decisión de inversión conlleva riesgo de
 pérdida del capital.
 
-## Estructura
-
-El contenido vive en `docs/`, repartido en ocho áreas que avanzan de lo personal a lo
-técnico: finanzas personales, planificación, entorno macroeconómico, instrumentos,
-análisis de empresas, cartera, conducta y evidencia, y una sección de referencia con el
-glosario. La navegación se declara a mano en `nav`, dentro de `zensical.toml`.
-
-## Uso local
-
-```bash
-# Instala las dependencias del proyecto
-make setup
-
-# Sirve la documentación en local
-make doc
-
-# Aplica el formato de prettier a todo el repositorio
-make format
-
-# Pasa las mismas comprobaciones que el CI
-make check
-```
-
 ## Licencia
 
 El contenido de este repositorio se publica bajo
